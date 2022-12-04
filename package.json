@@ -1,0 +1,39 @@
+{
+    "name": "@tripteki/prettier-config",
+    "version": "1.0.0",
+    "description": "Trip Teknologi's Codebase Convention",
+
+    "license": "MIT",
+    "author": "Trip Teknologi <tripteki.company@gmail.com>",
+    "homepage": "https://github.com/tripteki/convention-formatjs",
+    "bugs": { "url": "https://github.com/tripteki/convention-formatjs/issues" },
+
+    "dependencies": {},
+
+    "devDependencies": {
+
+        "prettier": "^2.8.0"
+    },
+
+    "peerDependencies": {
+
+        "prettier": ">= 2"
+    },
+
+    "files": [
+
+        ".prettierrc.json"
+    ],
+
+    "directories": {},
+
+    "bin": {},
+
+    "main": "index.js",
+
+    "publishConfig": {
+
+        "scope": "@tripteki",
+        "access": "public"
+    }
+}
